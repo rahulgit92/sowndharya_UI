@@ -1,0 +1,17 @@
+<html>
+	<head>
+    	<title>For Loops</title>
+    </head>
+    <body>
+    	<p id="colourList"></p>
+          <script type="text/javascript">
+            var colours = ["Red", "Yellow", "Blue"];
+			var text = "";
+			var i;
+			for (i = 0; i < colours.length; i++) {
+    			text =text+  colours[i] + " ";
+			}
+			document.getElementById("colourList").innerHTML = text;
+      	</script>
+    </body>
+</html>
